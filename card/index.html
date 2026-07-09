@@ -1,0 +1,57 @@
+<body>
+
+    <div id="game">
+
+        <div id="enemy-area">
+
+            <h2 id="enemy-name">Enemy</h2>
+
+            <p id="enemy-hp">HP: 0 / 0</p>
+
+            <p id="enemy-action">⚔️ 0</p>
+
+        </div>
+
+        <div id="player-area">
+
+            <p id="player-hp">HP: 0 / 0</p>
+
+            <p id="player-energy">⚡ 0 / 0</p>
+
+        </div>
+
+        <div id="hand"></div>
+
+        <link rel="stylesheet" href="style.css">
+
+        <button id="end-turn">
+            ターン終了
+        </button>
+
+        <div id="popup" class="hidden">
+
+            <div id="popup-box">
+
+                <h2 id="popup-title"></h2>
+
+                <button id="popup-button">
+                    次へ
+                </button>
+
+            </div>
+
+        </div>
+
+        <script src="data/cards.js"></script>
+        <script src="data/characters.js"></script>
+        <script src="data/enemies.js"></script>
+        <script src="data/relics.js"></script>
+
+
+        <script src="battle.js"></script>
+        <script src="ui.js"></script>
+        <script src="script.js"></script>
+
+    </div>
+
+</body>
